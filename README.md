@@ -7,6 +7,7 @@ Compressed database, block number = `0x1ae31ae`.
 ## Uncompress snapshot
 1. Download chaindata and checksum:
 ```shell
+<<<<<<< HEAD
 curl -O -L -k https://storage.googleapis.com/chaindata/chaindata-0x1ae31ae.tar
 curl -O -L -k https://storage.googleapis.com/chaindata/checksum-0x1ae31ae.md5
 md5sum -c checksum-0x1ae31ae.md5
@@ -14,6 +15,15 @@ md5sum -c checksum-0x1ae31ae.md5
 2. Uncompress downloaded files:
 ```shell
 tar -xvf chaindata-0x1ae31ae.tar
+=======
+curl -O -L -k https://storage.googleapis.com/chaindata/chaindata-0x1ab8fbf.tar
+curl -O -L -k https://storage.googleapis.com/chaindata/checksum-0x1ab8fbf.md5
+md5sum -c checksum-0x1ab8fbf.md5
+```
+2. Uncompress downloaded files:
+```shell
+tar -xvf chaindata-0x1ab8fbf.tar
+>>>>>>> a27f360 (Snapshot at 28 Sep 23 08:22 UTC from vm-dev-ops-rpc-testnet-vvstn-0.)
  ```
 3. Stop bridge and node:
 ```shell
