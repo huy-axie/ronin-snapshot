@@ -1,46 +1,11 @@
 # ronin-snapshot
-Compressed database, block number = `0x1aff122`.
-
-## Database after Ancient Data Prune:
-Ancient Data Prune is a new feature in [ronin v2.5.4](https://github.com/axieinfinity/ronin/releases/tag/v2.5.4)
-
-### Endpoint
-
-- mainnet: [chaindata-0x1aff122.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/chaindata-0x1aff122.tar.zst)
-
+Compressed database, block number = `0x1ae31ae`.
 
 ## Prerequisites
 - Your free disk space has more than twice the size of the snapshot.
 - Install the [zstd](https://github.com/facebook/zstd) on your machine.
 
-<<<<<<< HEAD
 ## Uncompress snapshot
-1. Download chaindata and checksum:
-```shell
-<<<<<<< HEAD
-curl -O -L -k https://storage.googleapis.com/chaindata/chaindata-0x1ae31ae.tar
-curl -O -L -k https://storage.googleapis.com/chaindata/checksum-0x1ae31ae.md5
-md5sum -c checksum-0x1ae31ae.md5
-```
-2. Uncompress downloaded files:
-```shell
-tar -xvf chaindata-0x1ae31ae.tar
-=======
-curl -O -L -k https://storage.googleapis.com/chaindata/chaindata-0x1ab8fbf.tar
-curl -O -L -k https://storage.googleapis.com/chaindata/checksum-0x1ab8fbf.md5
-md5sum -c checksum-0x1ab8fbf.md5
-```
-2. Uncompress downloaded files:
-```shell
-tar -xvf chaindata-0x1ab8fbf.tar
->>>>>>> a27f360 (Snapshot at 28 Sep 23 08:22 UTC from vm-dev-ops-rpc-testnet-vvstn-0.)
- ```
-3. Stop bridge and node:
-```shell
-docker stop bridge
-docker stop -t 300 node
-=======
-### Usage
 
 Step 1: Preparation
 - Make sure your hardware meets the [suggested requirement](https://docs.roninchain.com/docs/node-operators/mainnet/non-validator#install-the-node).
