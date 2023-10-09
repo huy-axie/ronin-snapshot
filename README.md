@@ -19,7 +19,6 @@ Step 2: Download & Uncompress
 * [OPTIONAL] If you need to speedup download, just use `aria2c`
 ```
 aria2c -o chaindata.tar.zst -s14 -x14 -k100M https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/{filename}
->>>>>>> 2b7b917 (Snapshot at 28 Sep 23 09:51 UTC from vm-dev-ops-rpc-testnet-vvstn-0.)
 ```
 
 But aria2c may fail sometimes, you need to rerun the download command. To make it convient, you can use the following script, save it into file `download.sh` and run: `nohup ./download.sh "<paste snapshot URL here>" <your dir> &`
