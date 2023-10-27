@@ -11,7 +11,7 @@ Compressed database, block number = `0x1b3d682`.
 
 ### Endpoint
 
-- mainnet: [chaindata-0x1b85414.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/chaindata-0x1b85414.tar.zst)
+- mainnet: [chaindata-0x1b85427.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/chaindata-0x1b85427.tar.zst)
 - testnet: [testnet-chaindata-0x1b85414.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/testnet-chaindata-0x1b85414.tar.zst)
 
 ### Usage
